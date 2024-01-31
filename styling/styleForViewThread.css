@@ -1,0 +1,42 @@
+.displayThread{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+}
+
+.displayThread > h1{
+    font-size: xx-large;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+form{
+    width: 50%;
+}
+
+.answerField{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#btnSubmit{
+    display: flex;
+    justify-content: center;
+}
+   
+
+
+.post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:red;
+}
+
+.postInfo{
+    text-decoration: underline;
+}

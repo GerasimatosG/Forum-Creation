@@ -1,0 +1,60 @@
+.thread {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+    grid-template-areas: 
+        "empty title author date posts";
+    color: red;
+    font-size: x-large;
+    margin-top: 10px;
+    text-align: center;    
+}
+
+.thread-title {
+    grid-area: title;
+}
+
+.thread-author {
+    grid-area: author;
+}
+
+.thread-date {
+    grid-area: date;
+}
+
+.thread-posts {
+    grid-area: posts;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+.hrStyle{
+    border-color: rgb(232, 232, 86);
+    border-width: 2px;
+}
+
+.threadTitleBar{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+  color: red;
+  font-size: xx-large;
+  margin-bottom: 30px;
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+.createThreadButton{
+  display: flex;
+  justify-content: center;
+}
+
+#newThreadButton{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border-radius: 180px;
+}

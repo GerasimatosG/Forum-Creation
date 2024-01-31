@@ -1,0 +1,60 @@
+body{
+    background-image: url(./registrationBackgroundImage.jpg);
+}
+
+.forumTitle{
+    display: grid;
+    grid-template-rows: 0.2fr 0.2fr 0.2fr; 
+    grid-template-columns: 1fr 1fr 1fr;     
+    color: white;    
+    text-shadow: 1px 1px 2px blueviolet, 0 0 1em blue, 0 0 0.2em blue;       
+}
+
+.leftButtons{
+    display: flex;
+    justify-content: space-around;  
+    grid-row-start: 2;   
+    background-color:rgb(169, 241, 13); 
+}
+
+.leftButtons > a > button{
+    background-color: rgb(254, 66, 3);
+    color: white;
+    font-weight: bold;
+}
+
+.rightButtons{
+    display: flex;
+    justify-content: space-around;  
+    grid-row-start: 2; 
+    grid-column-start: 3; 
+    background-color:rgb(169, 241, 13); 
+}
+
+.rightButtons > a > button{
+    background-color: rgb(254, 66, 3);
+    color: white;
+    font-weight: bold;
+}
+
+.connectMenu{
+    grid-area: 2/2/2/2; 
+    background-color:rgb(169, 241, 13);     
+    display: flex;
+    justify-content: center;
+}
+
+#adminButton{
+    background-color: black;  
+}
+
+
+#centerHeading{
+    grid-area: 1/2/2/2;
+    text-align: center;
+}
+
+.connectMenu > #adminButton > a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,55 @@
+.adminPage{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.createUserForm{
+    grid-area: 1/1/1/1;  
+    border: 2px yellow solid;  
+}
+
+.createUserForm > #createUser{
+    background-color: #130ce880;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap:0.5rem;
+    color: rgb(240, 6, 6);
+    font-weight: bolder;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.createUserForm > #createUser > button{
+    background-color: green;
+    font-weight: bold;
+    color: white;
+    border-radius: 180px;
+}
+
+.deleteThreadPost{
+    border:2px yellow solid ;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;    
+    background-color: #130ce880;
+}
+
+.centerForms{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+    color: red;
+    text-decoration: underline;
+}
+
+.deleteThreadPost > .centerForms > button{
+    background-color: red;
+    font-weight: bold;
+    color: white;
+    border-radius: 180px;
+}
+
